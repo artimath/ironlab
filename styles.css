@@ -1,0 +1,18 @@
+body {
+  width: 300px;
+  padding: 10px;
+}
+
+#dropzone {
+  border: 2px dashed #ccc;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#generate {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "FB Marketplace CSV Generator",
+  "version": "1.0",
+  "description": "Generate CSV for Facebook Marketplace listings from images",
+  "permissions": ["activeTab", "storage"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "options_page": "settings.html"
+}
